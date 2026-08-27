@@ -1,7 +1,7 @@
 RssAlt Name=SacTrnNSF
 RssAlt Description=Copy of RSSacTrn, but with WQ setup to excude Shasta so that it can be simulated by another model or input.
 Version=1001
-ModifiedTime=1787849781853
+ModifiedTime=1787856723712
 NetworkID=1
 System Path=rss/networks/UpperSac-Trinity/UpperSac-Trinity.rsys
 Operations Path=
@@ -21,6 +21,7 @@ UseYieldAnalysis=false
 SelectedYieldAnalysis=Reservoir Yield
 ReservoirYieldAnalysisBegin
 UseDemandVarLimit=false
+DemandVarLimit=0
 YieldAnalysisBegin
 UseHydropowerRules=false
 MaxIteration=25
@@ -77,6 +78,7 @@ WaterAccountYieldAnalysisBegin
 Tolerence=0.0
 WaterAccountIndex=-2147483648
 UseDemandVarLimit=false
+DemandVarLimit=0
 YieldAnalysisBegin
 UseHydropowerRules=false
 MaxIteration=25
@@ -196,6 +198,8 @@ Hindcast=~S30;98;1;0.0
 Hindcast=~S31;98;1;0.0
 Hindcast=~S32;98;1;0.0
 Hindcast=~S33;98;1;0.0
+InputTsVariant=WAT-W2 Shasta and ResSim-Deterministic,true
+InputTsVariant=W2 Shasta and ResSim-Deterministic,true
 UsingInflowFactors=false
 InflowFactorType=0
 GlobalInflowFactor=1.0
