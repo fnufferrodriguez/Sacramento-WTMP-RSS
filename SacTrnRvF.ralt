@@ -1,7 +1,7 @@
 RssAlt Name=SacTrnRvF
-RssAlt Description=Copy for forecast mode of Derived from RSSacTrnPO, but includes a rivers-only water quality geometry model with upstream boundaries at Keswick Dam and Whiskeytown Dam, and Lewiston Dam. ResSim will run the full 5-reservoir hydralics, so if alternative flows are desired ResSim overides must be used.
+RssAlt Description=Copy for forecast mode of Derived from SacTrnP, but includes a rivers-only water quality geometry model with upstream boundaries at Keswick Dam and Whiskeytown Dam, and Lewiston Dam. ResSim will run the full 5-reservoir hydralics, so if alternative flows are desired ResSim overides must be used.
 Version=1001
-ModifiedTime=1787331905571
+ModifiedTime=1787849866000
 NetworkID=1
 System Path=rss/UpperSac-Trinity.rsys
 Operations Path=
@@ -21,7 +21,6 @@ UseYieldAnalysis=false
 SelectedYieldAnalysis=Reservoir Yield
 ReservoirYieldAnalysisBegin
 UseDemandVarLimit=false
-DemandVarLimit=0
 YieldAnalysisBegin
 UseHydropowerRules=false
 MaxIteration=25
@@ -78,7 +77,6 @@ WaterAccountYieldAnalysisBegin
 Tolerence=0.0
 WaterAccountIndex=-2147483648
 UseDemandVarLimit=false
-DemandVarLimit=0
 YieldAnalysisBegin
 UseHydropowerRules=false
 MaxIteration=25
